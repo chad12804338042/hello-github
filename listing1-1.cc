@@ -10,4 +10,5 @@
   {
       std::thread t(hello);
       t.join();
+      while(1);
   }
